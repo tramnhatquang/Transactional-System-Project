@@ -1,7 +1,7 @@
 # Transactional System Project
 
 ## 1. Design Phase:
-There are five classes, including the main function. The others are BSTree, Account, Transaction, and Bank classes. This assignment has two main data structures: a template queue from C++ standard library and my implementation binary search tree (BST). All the important methods and attributes are listed in the attached UML file. 
+There are five classes, including the main function. The others are BSTree, Account, Transaction, and Bank classes. This assignment has two main data structures: a template queue from C++ standard library and my implementation binary search tree (BST). All the important methods and attributes are listed in the attached UML file in the project folder.
 ## 2. How Classes Interact:
   The Bank class reads the provided file name with each line corresponding to a proper transaction. After that, it will proceed with three phases. In Phase 1, each line will be processed to a proper Transaction object and push it to a queue. All lines from the text file will be processed after Phase 1 before continuing to other phases. In Phase 2, the queue will pop up each Transaction object until it is empty. For each 
 Transaction object being popped out, we create an Account object for each opening Transaction and follow the proper procedures for each account like transferring, withdrawing, or depositing funds. We will create proper methods to avoid any transactions causing negative balances to each account’ funds. More details about the acceptable overdraft protection are in the assignment description.  
