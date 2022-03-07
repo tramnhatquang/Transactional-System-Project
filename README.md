@@ -16,3 +16,6 @@ Transaction object being popped out, we create an Account object for each openin
 # 4. Testing: 
 *	Build more test cases to make sure the program compiled, run smoothly, and covers all the edge cases 
 *	Make sure the program output is approximately like the given output (e.g., the BankTransOut.txt) 
+# 5. UML Model:
+![UML Model](/UML.pdf)
+<!-- Format: ![Alt Text](url) -->
